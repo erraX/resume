@@ -1,13 +1,13 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.resume-page {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+  width: 8.5in;
+  height: 12in;
+  background-color: rgb(250, 255, 255);
+  box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
 }
