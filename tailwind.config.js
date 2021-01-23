@@ -8,6 +8,9 @@ module.exports = {
         roman: 'upper-roman',
         circle: 'circle',
       },
+      width: {
+        '1000px': '1000px',
+      },
     },
   },
   variants: {

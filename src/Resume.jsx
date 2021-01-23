@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import SkillsPanel from './components/SkillsPanel';
 import CareerPanel from './components/CareerPanel';
+import OpenSourcePanel from './components/OpenSourcePanel';
+import EduationPanel from './components/EduationPanel';
 
 export default function Resume() {
   return (
@@ -15,6 +17,8 @@ export default function Resume() {
       />
       <SkillsPanel />
       <CareerPanel />
+      <OpenSourcePanel />
+      <EduationPanel />
     </>
   );
 }

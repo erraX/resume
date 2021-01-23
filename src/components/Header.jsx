@@ -16,7 +16,12 @@ export default function Header({
       </div>
       <div>Mobile: {mobile}</div>
       <div>Email: {email}</div>
-      <a className="underline" href={`http://${github}`} target="_blank">
+      <a
+        className="underline"
+        href={`http://${github}`}
+        target="_blank"
+        rel="noreferrer"
+      >
         Github: {github}
       </a>
     </div>
