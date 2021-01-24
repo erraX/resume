@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: 18px;
+}
+
+* {
+  -webkit-print-color-adjust: exact;
+}
+
 .resume-page {
   margin: 0 auto;
   box-sizing: border-box;

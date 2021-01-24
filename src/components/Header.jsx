@@ -1,4 +1,7 @@
 import React from 'react';
+import PhoneCall from './PhoneCall';
+import Email from './Email';
+import Github from './Github';
 
 export default function Header({
   name,
@@ -9,20 +12,26 @@ export default function Header({
   github,
 }) {
   return (
-    <div className="h-auto p-8 mb-5 text-gray-800 text-center text-sm border-b border-gray-800 border-opacity-25 border-dashed">
-      <h1 className="text-5xl mb-3 text-center font-bold">{name}</h1>
-      <div className="">
-        {title} - {experience}年开发经验
+    <div className="h-auto pt-5 text-gray-800 text-left text-sm">
+      <h1>
+        <span className="text-4xl mb-1 font-bold align-text-bottom">
+          {name}
+        </span>
+        <span className="ml-2 text-sm align-text-bottom font-normal">
+          {title} {experience}年
+        </span>
+      </h1>
+      <div>
+        <PhoneCall className="inline mr-2" />
+        {mobile}
       </div>
-      <div>Mobile: {mobile}</div>
-      <div>Email: {email}</div>
-      <a
-        className="underline"
-        href={`http://${github}`}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Github: {github}
+      <div>
+        <Email className="inline mr-2" />
+        <a href={`mailto: ${email}`}>{email}</a>
+      </div>
+      <a href={`http://${github}`} target="_blank" rel="noreferrer">
+        <Github className="inline mr-2" />
+        {github}
       </a>
     </div>
   );
