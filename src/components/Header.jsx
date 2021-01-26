@@ -13,10 +13,8 @@ export default function Header({
 }) {
   return (
     <div className="h-auto pt-5 text-gray-800 text-left text-sm">
-      <h1>
-        <span className="text-4xl mb-1 font-bold align-text-bottom">
-          {name}
-        </span>
+      <h1 className="mb-2">
+        <span className="text-4xl font-bold align-text-bottom">{name}</span>
         <span className="ml-2 text-sm align-text-bottom font-normal">
           {title} {experience}年
         </span>
