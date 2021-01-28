@@ -22,7 +22,7 @@ export default function Resume() {
           '有大型中后台系统架构设计经验，能够根据业务实际需求设计系统架构、技术选型',
           '熟悉 Javascript、ES2015+，能够编写高可用，高扩展的代码',
           '熟悉 Vue 技术栈，了解 Vue2 Vue3 原理和源码，贡献过 nuxt.js 社区代码',
-          '熟练使用 Git, webpack, lerna, yann, TypeScript 等工具',
+          '熟练使用 Git, webpack, lerna, yarn, TypeScript 等工具',
           '了解 React，能够使用框架写出中小型的项目，了解 Angular、Svelte 等其他前端框架',
           '了解前端单元测试，熟练使用 Jest 测试框架，能够对 UI 层做简单单元测试',
           '了解 http 协议，在前后端联调过程中能够快速排查问题',

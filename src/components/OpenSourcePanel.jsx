@@ -9,7 +9,7 @@ const sources = [
   {
     name: 'v-hooks',
     link: 'http://github.com/errax/v-hooks',
-    desc: 'vue composition hooks 常用封装',
+    desc: 'vue composition hooks 常用功能封装',
   },
   {
     name: 'nuxt-router-module',
@@ -29,7 +29,7 @@ const sources = [
   {
     name: 'html-string-replace-webpack-plugin',
     link: 'http://github.com/errax/html-string-replace-webpack-plugin',
-    desc: 'Webpack `HtmlWebpackPlugin` 字符串替换插件',
+    desc: 'webpack `HtmlWebpackPlugin` 字符串替换插件',
   },
   {
     name: 'inversion.js',

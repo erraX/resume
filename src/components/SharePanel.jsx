@@ -14,7 +14,7 @@ const SharePanel = () => (
           rel="noreferrer"
           className="hover:text-blue-500"
         >
-          me.js 模块化改造
+          me.js 模块化改造方案
         </a>
       </li>
       <li className="mb-3">
@@ -24,7 +24,7 @@ const SharePanel = () => (
           rel="noreferrer"
           className="hover:text-blue-500"
         >
-          使用 vite 开发
+          Vite 原理和开发体验
         </a>
       </li>
       <li className="mb-3">
@@ -34,7 +34,7 @@ const SharePanel = () => (
           rel="noreferrer"
           className="hover:text-blue-500"
         >
-          复杂表单构建思路
+          配置化表单构建方案
         </a>
       </li>
     </ul>
