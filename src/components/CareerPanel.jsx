@@ -6,7 +6,7 @@ const CareerPanel = () => (
   <>
     <h2 className="text-2xl mb-3 font-bold">
       <Bag className="inline align-text-bottom mb-0.5 mr-2" />
-      工作&项目经历
+      工作&主要项目经历
     </h2>
     <ul className="list-disc pl-6">
       <li>

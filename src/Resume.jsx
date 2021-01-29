@@ -17,6 +17,12 @@ export default function Resume() {
         github={'github.com/errax'}
       />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
+      <CareerPanel />
+      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
+      <OpenSourcePanel />
+      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
+      <SharePanel />
+      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
       <SkillsPanel
         items={[
           '有大型中后台系统架构设计经验，能够根据业务实际需求设计系统架构、技术选型',
@@ -33,12 +39,6 @@ export default function Resume() {
           '关注最新前端趋势(Micro Frontends、Low-code、No-bundle)',
         ]}
       />
-      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
-      <CareerPanel />
-      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
-      <OpenSourcePanel />
-      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
-      <SharePanel />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
       <EduationPanel />
     </>
