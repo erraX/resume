@@ -9,7 +9,7 @@ const SharePanel = () => (
     <ul className="list-disc pl-6">
       <li className="mb-3">
         <a
-          href=""
+          href="/slides/bi-module.pdf"
           target="_blank"
           rel="noreferrer"
           className="hover:text-blue-500"
@@ -19,7 +19,7 @@ const SharePanel = () => (
       </li>
       <li className="mb-3">
         <a
-          href=""
+          href="/slides/vite.pdf"
           target="_blank"
           rel="noreferrer"
           className="hover:text-blue-500"
