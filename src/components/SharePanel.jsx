@@ -29,7 +29,7 @@ const SharePanel = () => (
       </li>
       <li className="mb-3">
         <a
-          href=""
+          href="/slides/form.pdf"
           target="_blank"
           rel="noreferrer"
           className="hover:text-blue-500"
