@@ -7,14 +7,19 @@ const sources = [
     desc: 'headless form component',
   },
   {
-    name: 'v-hooks',
-    link: 'http://github.com/errax/v-hooks',
-    desc: 'vue composition hooks 常用功能封装',
-  },
-  {
     name: 'nuxt-enum-module',
     link: 'http://github.com/errax/nuxt-enum-module',
     desc: 'nuxt 枚举封装',
+  },
+  {
+    name: 'inversion.js',
+    link: 'http://github.com/errax/inversion.js',
+    desc: '轻量级 IoC 容器',
+  },
+  {
+    name: 'html-string-replace-webpack-plugin',
+    link: 'http://github.com/errax/html-string-replace-webpack-plugin',
+    desc: 'webpack `HtmlWebpackPlugin` 字符串替换插件',
   },
 ];
 
