@@ -7,7 +7,7 @@ const SharePanel = () => (
       技术分享
     </h2>
     <ul className="list-disc pl-6">
-      <li className="mb-3">
+      <li className="mb-1">
         <a
           href="/slides/bi-module.pdf"
           target="_blank"
@@ -17,7 +17,7 @@ const SharePanel = () => (
           me.js 模块化改造方案
         </a>
       </li>
-      <li className="mb-3">
+      <li className="mb-1">
         <a
           href="/slides/vite.pdf"
           target="_blank"
@@ -27,7 +27,7 @@ const SharePanel = () => (
           Vite 原理和开发体验
         </a>
       </li>
-      <li className="mb-3">
+      <li className="mb-1">
         <a
           href="/slides/form.pdf"
           target="_blank"

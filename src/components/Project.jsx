@@ -1,5 +1,5 @@
 const Project = ({ name, desc, renderDesc, items }) => (
-  <div className="my-5">
+  <div className="my-3">
     <h2 className="font-bold text-lg">{name}</h2>
     <div className="mb-2 border-gray-800 rounded pl-3 py-3 bg-gray-100">
       {desc || renderDesc?.()}

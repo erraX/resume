@@ -31,7 +31,7 @@ const OpenSourcePanel = () => (
     </h2>
     <ul className="list-disc pl-6">
       {sources.map(({ name, link, desc }, index) => (
-        <li className="mb-3">
+        <li className="mb-2">
           <a
             href={link}
             target="_blank"

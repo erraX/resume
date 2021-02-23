@@ -31,12 +31,10 @@ export default function Resume() {
           '熟练使用 Git, webpack, lerna, yarn, TypeScript 等工具',
           '了解 React，能够使用框架写出中小型的项目，了解 Angular、Svelte 等其他前端框架',
           '了解前端单元测试，熟练使用 Jest 测试框架，能够对 UI 层做简单单元测试',
-          '了解 http 协议，在前后端联调过程中能够快速排查问题',
           '了解 Docker、 K8s、 ci、自动化部署',
-          '了解 Linux 开发环境，能够使用 shell 满足日常开发需求',
           '了解 Node.js 开发，能够编写简单命令行工具、使用 express, koa 编写简单接口',
           '能够阅读英文文档，Github，Stackoverflow 上能够使用英语书面交流',
-          '关注最新前端趋势(Micro Frontends、Low-code、No-bundle)',
+          '关注最新前端趋势(Micro Frontends、Low-code、Bundleless)',
         ]}
       />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
