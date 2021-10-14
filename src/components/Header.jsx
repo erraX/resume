@@ -1,7 +1,5 @@
 import React from 'react';
-import PhoneCall from './PhoneCall';
-import Email from './Email';
-import Github from './Github';
+import Icon from '../icons/Icon';
 
 export default function Header({
   name,
@@ -20,15 +18,15 @@ export default function Header({
         </span>
       </h1>
       <div>
-        <PhoneCall className="inline mr-2" />
+        <Icon type="phoneCall" className="inline mr-2" />
         {mobile}
       </div>
       <div>
-        <Email className="inline mr-2" />
+        <Icon type="email" className="inline mr-2" />
         <a href={`mailto: ${email}`}>{email}</a>
       </div>
       <a href={`http://${github}`} target="_blank" rel="noreferrer">
-        <Github className="inline mr-2" />
+        <Icon type="github" className="inline mr-2" />
         {github}
       </a>
     </div>

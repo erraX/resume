@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.resume-page {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0.3in;
+    width: 8.5in;
+    height: 12in;
+    background-color: rgb(250, 255, 255);
+    box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
+}
+
+
+/*# sourceMappingURL=/src.78399e21.css.map */

@@ -1,37 +1,14 @@
-import Github from './Github';
+import Icon from '../icons/Icon';
 
-const sources = [
-  {
-    name: 'form-after-all',
-    link: 'http://github.com/errax/form-after-all',
-    desc: 'headless form component',
-  },
-  {
-    name: 'nuxt-enum-module',
-    link: 'http://github.com/errax/nuxt-enum-module',
-    desc: 'nuxt 枚举封装',
-  },
-  {
-    name: 'inversion.js',
-    link: 'http://github.com/errax/inversion.js',
-    desc: '轻量级 IoC 容器',
-  },
-  {
-    name: 'html-string-replace-webpack-plugin',
-    link: 'http://github.com/errax/html-string-replace-webpack-plugin',
-    desc: 'webpack `HtmlWebpackPlugin` 字符串替换插件',
-  },
-];
-
-const OpenSourcePanel = () => (
+const OpenSourcePanel = ({ repos }) => (
   <>
     <h2 className="text-2xl mb-3 font-bold">
-      <Github className="inline align-text-bottom mb-0.5 mr-2" />
+      <Icon type="github" className="inline align-text-bottom mb-0.5 mr-2" />
       开源项目
     </h2>
     <ul className="list-disc pl-6">
-      {sources.map(({ name, link, desc }, index) => (
-        <li className="mb-2">
+      {repos.map(({ name, link, desc }, index) => (
+        <li key={index} className="mb-2">
           <a
             href={link}
             target="_blank"
