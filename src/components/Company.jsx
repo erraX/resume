@@ -7,7 +7,7 @@ const Company = ({ name, rank, beginTime, endTime, desc }) => (
         {beginTime} ~ {endTime}
       </span>
     </div>
-    <div className="mb-2 border-l-4 border-gray-800 rounded pl-3 py-3 bg-gray-100">
+    <div className="mb-2 border-l-4 border-gray-800 rounded pl-3 py-3 bg-gray-100 whitespace-pre-wrap">
       {desc}
     </div>
   </>
