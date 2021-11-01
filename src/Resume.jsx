@@ -14,7 +14,7 @@ export default function Resume() {
         name={t('infomation.name')}
         title={t('infomation.title')}
         mobile="17717375633"
-        experience="5"
+        experience={t('experience')}
         email="niminjiecide@outlook.com"
         github={'github.com/errax'}
       />

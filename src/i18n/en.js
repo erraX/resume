@@ -1,90 +1,92 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   year: 'years',
+  experience: "with 5 Years' Experience",
   'infomation.name': 'Minjie Ni',
   'infomation.title': 'Web Front-end Engineer',
   'career.title': 'Work',
   'company.alibaba.name': 'Alibaba',
   'company.alibaba.rank': 'Front End Architect (P7)',
   'company.alibaba.desc':
-    'Teambition / Aliyun Drive frone-end architect, be responsible for infrastructure construction, performance optimization and architecture design.',
+    'Teambition / Aliyun Drive team front-end architect. Responsible for infrastructure construction, performance optimization and architecture design.',
   'company.alibaba.project.teambition.name': 'Teambition',
   'company.alibaba.project.teambition.desc':
-    'Large-scale collaborative software like jira, which contains agile management, schedule management, gantt chart, etc.',
+    'Large-scale collaborative software like jira, which contains various functions, such as agile, schedule management, gantt chart, etc.',
   'company.alibaba.project.teambition.duty.1':
-    'Construct error and performance monitoring infrastructure, monitor sdk design and development',
+    'Responsible for team monitoring infrastructure construction, monitoring sdk design and development, and correcting abnormal monitoring index',
   'company.alibaba.project.teambition.duty.2':
-    'Participate in micro front-end refactor, be able to flexibly adapt app loading in multi-platform (Web, DingTalk)',
+    'Participate in the refactoring of micro front-end, and be able to flexibly adapt to the loading of applications in multi-platform (Web, DingTalk)',
   'company.alibaba.project.teambition.duty.3':
     'Optimize dingtalk login performance. Bring about 30% login speed increasement',
   'company.alibaba.project.aliyundrive.name': 'Aliyun Drive',
   'company.alibaba.project.aliyundrive.desc':
-    'Cross-platform cloud network disk, which could upload/download files, share files.',
+    'Cross-platform cloud network disk, which could upload/download/share files',
   'company.alibaba.project.aliyundrive.duty.1':
-    'Land monitoring infrastructure',
+    'Lead and push the implementation of monitoring infrastructure',
   'company.alibaba.project.aliyundrive.duty.2':
-    'Refactor client file transfer module',
+    'Refactor client core module of file transfer',
   'company.tencent.name': 'Tencent',
   'company.tencent.rank': 'Senior Front End Engineer (T9)',
   'company.tencent.desc':
-    'Tencent Contract Advertisement front-end tech leader, project manager, be responsible for infrastructure construction, drafting team development principles, overhauling architect, requirement review, etc.\r\nClosely work with PM, designer and back-end engineer to land product. Participated in developing most projects of the team.',
+    "Tencent Contract Advertisement team front-end tech leader. Responsible for the team's infrastructure construction, development principles, architecture evolution and requirement outline design etc, as well as the implementation of requirement.",
   'company.tencent.project.inquiry.name':
-    'Contract Advertisement Inquiry Platform',
+    'Contract Advertising Inquiry and Order Platform',
   'company.tencent.project.inquiry.desc':
-    "Legacy project(10 years old), developed by vanilla js, non-standard module, no modern bundler, and front-end back-end are not separated. \r\nAnd the business logic is complicated because of thousands ad forms.\r\nThere are huge amount of form fields, it's cascade is complex(chian, multi to multi, circle, async cascade) and have a lot of special logic to handle.",
+    'Sellers could inquiry advertisement inventory and place an order on platform. \r\nThe original platform is a legacy project(10 years old). Developed by vanilla js, it has many problems. For example, the platform uses non-standard module, no modern bundler, and front-end back-end are not separated. \r\nAnd the business logic is complicated because of thousands advertising forms. So it is hard to maintain and evolve.',
   'company.tencent.project.inquiry.duty.1':
-    'Modular refactoring: transpile non-standard modules to CommonJS, therefore could using npm packages and bundle with Webpack',
+    'Modular refactoring: transpile non-standard modules to CommonJS, and be able to use npm packages and bundle with Webpack',
   'company.tencent.project.inquiry.duty.2':
-    'Automatically delopy: refactor from calling PHP api to build js, upload to git repo and deploy manually to build, depoly automatically by CI pipeline',
+    'Automatic delopyment: manually call PHP api to bundle js, and upload output to git repo to deploy, upgrade to build, depoly automatically by CI/CD',
   'company.tencent.project.inquiry.duty.3':
     'Frameworks upgrade: Rewrite partial components by Vue.js, makes codebases more maintainable and extensible',
   'company.tencent.project.inquiry.duty.4':
-    'Efficiency boosting: refactor form by dependency inversion, adding a form fields originally 20 places need to be modified, now only 3 places(field config, component type, data binding)',
+    'Efficiency boosting: refactor form module by dependency inversion. To add a form field, originally need to modify 20 places, but now only need to modify 3 places (field config, component type, data binding)',
   'company.tencent.project.inquiry.duty.5':
-    'Non-invasive refactoring: transform normal events to RxJS observable stream to handle complex form fields cascade and Asynchronous race problem',
+    'Non-intrusive refactoring: convert normal events to RxJS observable stream to deal with complex form fields linkage and asynchronous race problem',
   'company.tencent.project.inquiry.duty.6':
-    'Infrastructure construction: scaffold for generating form fields, chrome extension for form state visualization',
-  'company.tencent.threeone.name': 'Contract Advertisement One-stop Platform',
+    "Infrastructure construction: scaffold for quickly generating form fields' components and models, chrome extension for form state visualization",
+  'company.tencent.threeone.name':
+    'Contract Advertisement Three-in-one Platform',
   'company.tencent.threeone.desc':
-    'Mix three legacy platform(inventory, reserve, delivery platform) into one, large-scale project, complicated business logic.',
+    'Integrate three out-of-date advertising platforms (advertising inventory, order and delivery platform) into one complete, large-scale and more logic platform',
   'company.tencent.threeone.duty.1':
-    'Build the entire architecture from scratch to launch, lead 4 front-end developer, and contribute 70% of the code at the beginning of the project',
+    'Build the entire architecture from scratch to launch, lead 4 front-end developer, and contribute 70% of the code at the early stage of the project',
   'company.tencent.threeone.duty.2':
-    'Be responsible for priciples of development, Git branch model design, requirement review, UI/UE require, CR, CI deployment, etc',
+    'Responsible for making team development priciples, designing GIT workflow, reviewing design and requirements, code review, CI/CD deployment etc',
   'company.tencent.threeone.duty.3':
     'Framework selection：Monorepo + Nuxt.js + vue-composition-api + RxJS + InversifyJS',
   'company.tencent.threeone.duty.4':
-    'Abstract some infrastructure with nuxt.js and vue-composition-api, include configurable router, authority management, SSR pre-fetch component, api requester, mock middleware, etc',
+    'Abstract some infrastructure with nuxt.js and vue-composition-api, include configurable router, permission management, SSR pre-fetch component, api requester, mock middleware, etc',
   'company.tencent.threeone.duty.5':
-    'Core modules(form and detail pages) are built with IoC, headless component(like formik), and using RxJS to handle complex form cascade',
+    'Core modules(form and detail pages) are built with IoC, headless component(like formik), and using RxJS to dealwith complex form linkage',
   'company.baidu.name': 'Baidu',
   'company.baidu.rank': 'Junior Front End Engineer (T4)',
   'company.baidu.desc':
-    'Develped "to Customer" and "to Business" projects, mobile websites, designed large-scale project architect, maintained ancient project.',
+    'Responsible for many "B2C" and "B2B" projects development, include mobile advertising sdk, large-scale admin platform, online maker, etc. And also design architecture for new projects, maintain legacy projects',
   'company.baidu.project.dsp.name': 'BaiYi Demand-side Platform',
   'company.baidu.project.dsp.desc':
-    'The only DSP platform in Baidu Advertising alliance department, five million RMB daily consumption. Developed by vanillaJS, MVC pattern.',
+    'The only DSP platform in WangMeng department, with an average daily consumption of five million RMB. It is a one-stop delivery platform, which provides advertiser with programmed advertising purchase services. Developed by vanillaJS, MVC pattern.',
   'company.baidu.project.dsp.duty.1':
     'Refactor architecture from jQuery + Template engine pattern to MVC pattern(like Backbone.js)',
   'company.baidu.project.dsp.duty.2':
-    'Encapsulate api requester, dialog, form validation, event center mdoule',
+    'Encapsulate infrastructure, such as api requester, dialog business component, form validation, event center module',
   'company.baidu.project.landing.name': 'Landing Page Online Maker',
   'company.baidu.project.landing.desc':
-    'Online web page maker, which help advertisers make HTML5 landing page fast. There are many components can be used in Form. Advertisers could analyze statistics on the platform or download it.',
+    'This is the visual editing platform, which helps advertisers quickly build H5 landing pages with rich components, and provides form data statistics. Advertisers can view and download these form data',
   'company.baidu.project.landing.duty.1':
-    'As a Front-end leader, design UI/UE, architecture,  from scratch to launch',
-  'company.baidu.project.landing.duty.2': 'Frameworks are React + Redux',
+    'Key developer, responsible for design UI/UE and architecture from scratch to launch',
+  'company.baidu.project.landing.duty.2': 'Frameworks selection: React + Redux',
   'company.baidu.project.landing.duty.3':
-    'Abstract some infrastructure module, like minify Chinese fonts, Redux performance monitoring middleware',
+    'Encapsulate several basic modules according to requirements: minify Chinese fonts, Redux performance monitoring middleware, etc.',
   'company.baidu.project.landing.duty.4':
-    'Design JSON schema and render engine to describe elements of landing page, and render universal web page.',
-  'company.baidu.project.nichang.name': 'Advertisement Material Online Maker',
+    'Design JSON schema which describe rendering logic of landing page. Render engine render consistent elements both in online maker and landing page',
+  'company.baidu.project.nichang.name': 'Advertising Material Online Maker',
   'company.baidu.project.nichang.desc':
-    'Online ad material maker, which help advertisers or designer make ad material(image). Advertisers could zoom, drag, rotate materials on canvas, and difference material ratio(16:9 or 4:3, etc...) can cascade according to their ratio.',
+    'This is the visual online advertising material making platform. Designers and advertisers can make materials online, it supports dozens of material components. Advertisers can zoom, scale, rotate and drag on canvas, and can cascade different advertising sizes automatically at the same time',
   'company.baidu.project.nichang.duty.1':
-    'As a main front-end developer, be responsible for most requirement.',
+    'Key developer, responsible for most requirement and code refactoring.',
   'company.baidu.project.nichang.duty.2': `Separated most modules' "View" and "Model" by Backbone.js`,
-  'company.baidu.project.nichang.duty.3': `Refactored core components' "View" by React, optimized render performance`,
+  'company.baidu.project.nichang.duty.3': `Refactored core components' "View" by React, optimized rendering performance`,
   'opensource.title': 'OpenSource',
   'opensource.desc.1': 'headless form component',
   'opensource.desc.2':
@@ -98,7 +100,7 @@ export default {
   'share.3': 'Scalable and configurable form',
   'skills.title': 'Skills',
   'skills.1':
-    'Experience developing large-scale project from scratch to launch, especially architecture design, framework selection',
+    'Experience in developing large-scale project from scratch to launch, especially architecture design, framework selection',
   'skills.2':
     'Experience with vanilla Javascript, ES2015+, be able to write readable, extensible code',
   'skills.3':
@@ -114,7 +116,7 @@ export default {
   'skills.9':
     'Be able to read English documents, talk on Github or Stackoverflow',
   'skills.10':
-    'Be concerned with the latest front-end trends(Micro Frontends、Low-code、Bundleless)',
+    'Following the latest front-end trends(Micro Frontends、Low-code、Bundleless)',
   'education.title': 'Education',
   'university.name.1': 'East China Normal University',
   'university.major.1': 'Computer Science and Technology',

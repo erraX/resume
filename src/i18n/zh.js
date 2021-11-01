@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  year: '年',
+  experience: '5年开发经验',
   'infomation.name': '倪敏杰',
   'infomation.title': 'Web 前端工程师',
   'career.title': '工作&主要项目经历',
@@ -55,7 +55,7 @@ export default {
   'company.tencent.threeone.duty.5':
     '对于核心模块：表单页，设计了表单配置化方案，开发了headless form(类似formik)来维护表单状态，使用 IoC 的方式管理各个模块， RxJS 处理复杂联动',
   'company.baidu.name': '百度',
-  'company.baidu.rank': '高级前端工程师 (T4)',
+  'company.baidu.rank': '前端工程师 (T4)',
   'company.baidu.desc':
     '在职期间开发过 C端、B端、移动端项目、设计过大型复杂项目架构、维护过祖传项目',
   'company.baidu.project.dsp.name': '百意 DSP 平台',
