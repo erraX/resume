@@ -35,6 +35,7 @@ export default function Resume() {
                   t('company.alibaba.project.teambition.duty.1'),
                   t('company.alibaba.project.teambition.duty.2'),
                   t('company.alibaba.project.teambition.duty.3'),
+                  t('company.alibaba.project.teambition.duty.4'),
                 ],
               },
               {
@@ -74,7 +75,6 @@ export default function Resume() {
                   t('company.tencent.threeone.duty.2'),
                   t('company.tencent.threeone.duty.3'),
                   t('company.tencent.threeone.duty.4'),
-                  t('company.tencent.threeone.duty.5'),
                 ],
               },
             ],
@@ -92,6 +92,7 @@ export default function Resume() {
                 items: [
                   t('company.baidu.project.dsp.duty.1'),
                   t('company.baidu.project.dsp.duty.2'),
+                  t('company.baidu.project.dsp.duty.3'),
                 ],
               },
               {
@@ -101,7 +102,6 @@ export default function Resume() {
                   t('company.baidu.project.landing.duty.1'),
                   t('company.baidu.project.landing.duty.2'),
                   t('company.baidu.project.landing.duty.3'),
-                  t('company.baidu.project.landing.duty.4'),
                 ],
               },
               {
