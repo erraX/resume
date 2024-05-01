@@ -17,7 +17,6 @@ export default function Header({
         <span className="text-4xl font-bold align-text-bottom">{name}</span>
         <span className="ml-2 text-sm align-text-bottom font-normal">
           {title} {experience}
-          {t('year')}
         </span>
       </h1>
       <div>

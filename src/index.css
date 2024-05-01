@@ -23,3 +23,11 @@ html {
   background-color: var(--bg-color);
   box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.7);
 }
+
+.i18n-selector > select {
+  visibility: hidden;
+}
+
+.i18n-selector:hover > select {
+  visibility: visible;
+}

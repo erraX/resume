@@ -3,7 +3,7 @@ import Header from './components/Header';
 import SkillsPanel from './components/SkillsPanel';
 import CareerPanel from './components/CareerPanel';
 import OpenSourcePanel from './components/OpenSourcePanel';
-import SharePanel from './components/SharePanel';
+// import SharePanel from './components/SharePanel';
 import EduationPanel from './components/EduationPanel';
 
 export default function Resume() {
@@ -35,7 +35,6 @@ export default function Resume() {
                   t('company.alibaba.project.teambition.duty.1'),
                   t('company.alibaba.project.teambition.duty.2'),
                   t('company.alibaba.project.teambition.duty.3'),
-                  t('company.alibaba.project.teambition.duty.4'),
                 ],
               },
               {
@@ -143,7 +142,7 @@ export default function Resume() {
         ]}
       />
       <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
-      <SharePanel
+      {/* <SharePanel
         shares={[
           {
             name: t('share.1'),
@@ -158,8 +157,8 @@ export default function Resume() {
             link: '/slides/form.pdf',
           },
         ]}
-      />
-      <div className="border-b my-5 border-gray-800 border-opacity-25"></div>
+      /> */}
+      {/* <div className="border-b my-5 border-gray-800 border-opacity-25"></div> */}
       <SkillsPanel
         items={[
           t('skills.1'),

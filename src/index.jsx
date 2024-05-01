@@ -8,7 +8,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <I18nContextProvider defaultLang="en">
+    <I18nContextProvider defaultLang="zh">
       <Resume />
       <I18nSelector />
     </I18nContextProvider>

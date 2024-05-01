@@ -12,13 +12,13 @@ export default {
   'company.alibaba.project.teambition.desc':
     '团队协同办公工具, 有敏捷开发工具、甘特图、任务管理、待办管理、项目看板等功能。\r\n技术栈: CoffeeScript, TypeScript, Backbone, React, RxJS, Qiankun, lerna。',
   'company.alibaba.project.teambition.duty.1':
-    '负责团队监控体系建设, 监控 SDK 设计和开发, 异常监控指标治理',
+    '负责团队监控体系建设, 监控 SDK 设计和开发',
   'company.alibaba.project.teambition.duty.2':
     '监控 SDK 实现了接口层，隐藏了底层平台SDK细节, 对接入方透明, 支持多个监控平台多写。扩展功能使用插件化开发，开发了 FMP、 掉帧监测、Promise全局捕捉等插件',
   'company.alibaba.project.teambition.duty.3':
-    '负责 Teambition 钉钉端登录页性能优化, 登录速度提升 30%',
-  'company.alibaba.project.teambition.duty.4':
-    '参与前端微应用改造, 使用 IoC 容器管理运行时模块, 能够适配微应用在不同环境(Web, 钉钉)加载而执行的不同逻辑',
+    '负责 Teambition 钉钉端登录页性能优化',
+  // 'company.alibaba.project.teambition.duty.4':
+  //   '参与前端微应用改造, 使用 IoC 容器管理运行时模块, 能够适配微应用在不同环境(Web, 钉钉)加载而执行的不同逻辑',
   'company.alibaba.project.aliyundrive.name': '阿里云盘',
   'company.alibaba.project.aliyundrive.desc':
     '跨平台云盘, 可上传/下载/分享各种资源。\r\n技术栈：Electron, React, MobX, RxJS, lerna。',
